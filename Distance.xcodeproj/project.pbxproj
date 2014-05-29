@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C372DF951934CF6F00D8CAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DF941934CF6F00D8CAA4 /* Foundation.framework */; };
+		C372DF971934CF6F00D8CAA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DF961934CF6F00D8CAA4 /* CoreGraphics.framework */; };
+		C372DF991934CF6F00D8CAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DF981934CF6F00D8CAA4 /* UIKit.framework */; };
+		C372DF9F1934CF6F00D8CAA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C372DF9D1934CF6F00D8CAA4 /* InfoPlist.strings */; };
+		C372DFA11934CF6F00D8CAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C372DFA01934CF6F00D8CAA4 /* main.m */; };
+		C372DFA51934CF6F00D8CAA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C372DFA41934CF6F00D8CAA4 /* AppDelegate.m */; };
+		C372DFA81934CF6F00D8CAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C372DFA61934CF6F00D8CAA4 /* Main.storyboard */; };
+		C372DFAB1934CF6F00D8CAA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C372DFAA1934CF6F00D8CAA4 /* ViewController.m */; };
+		C372DFAD1934CF6F00D8CAA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C372DFAC1934CF6F00D8CAA4 /* Images.xcassets */; };
+		C372DFB41934CF6F00D8CAA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DFB31934CF6F00D8CAA4 /* XCTest.framework */; };
+		C372DFB51934CF6F00D8CAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DF941934CF6F00D8CAA4 /* Foundation.framework */; };
+		C372DFB61934CF6F00D8CAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C372DF981934CF6F00D8CAA4 /* UIKit.framework */; };
+		C372DFBE1934CF6F00D8CAA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C372DFBC1934CF6F00D8CAA4 /* InfoPlist.strings */; };
+		C372DFC01934CF6F00D8CAA4 /* DistanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C372DFBF1934CF6F00D8CAA4 /* DistanceTests.m */; };
+		C372DFCB1934CF8D00D8CAA4 /* DistanceEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C372DFCA1934CF8D00D8CAA4 /* DistanceEditorView.m */; };
+		C372DFCE1934DA8F00D8CAA4 /* nearbylocation.png in Resources */ = {isa = PBXBuildFile; fileRef = C372DFCC1934DA8F00D8CAA4 /* nearbylocation.png */; };
+		C372DFCF1934DA8F00D8CAA4 /* nearbylocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C372DFCD1934DA8F00D8CAA4 /* nearbylocation@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C372DFB71934CF6F00D8CAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C372DF891934CF6F00D8CAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C372DF901934CF6F00D8CAA4;
+			remoteInfo = Distance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C372DF911934CF6F00D8CAA4 /* Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C372DF941934CF6F00D8CAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C372DF961934CF6F00D8CAA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C372DF981934CF6F00D8CAA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C372DF9C1934CF6F00D8CAA4 /* Distance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Distance-Info.plist"; sourceTree = "<group>"; };
+		C372DF9E1934CF6F00D8CAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C372DFA01934CF6F00D8CAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C372DFA21934CF6F00D8CAA4 /* Distance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Distance-Prefix.pch"; sourceTree = "<group>"; };
+		C372DFA31934CF6F00D8CAA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C372DFA41934CF6F00D8CAA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C372DFA71934CF6F00D8CAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C372DFA91934CF6F00D8CAA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C372DFAA1934CF6F00D8CAA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C372DFAC1934CF6F00D8CAA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C372DFB21934CF6F00D8CAA4 /* DistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C372DFB31934CF6F00D8CAA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C372DFBB1934CF6F00D8CAA4 /* DistanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistanceTests-Info.plist"; sourceTree = "<group>"; };
+		C372DFBD1934CF6F00D8CAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C372DFBF1934CF6F00D8CAA4 /* DistanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceTests.m; sourceTree = "<group>"; };
+		C372DFC91934CF8D00D8CAA4 /* DistanceEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceEditorView.h; sourceTree = "<group>"; };
+		C372DFCA1934CF8D00D8CAA4 /* DistanceEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceEditorView.m; sourceTree = "<group>"; };
+		C372DFCC1934DA8F00D8CAA4 /* nearbylocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearbylocation.png; sourceTree = "<group>"; };
+		C372DFCD1934DA8F00D8CAA4 /* nearbylocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nearbylocation@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C372DF8E1934CF6F00D8CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DF971934CF6F00D8CAA4 /* CoreGraphics.framework in Frameworks */,
+				C372DF991934CF6F00D8CAA4 /* UIKit.framework in Frameworks */,
+				C372DF951934CF6F00D8CAA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C372DFAF1934CF6F00D8CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DFB41934CF6F00D8CAA4 /* XCTest.framework in Frameworks */,
+				C372DFB61934CF6F00D8CAA4 /* UIKit.framework in Frameworks */,
+				C372DFB51934CF6F00D8CAA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C372DF881934CF6F00D8CAA4 = {
+			isa = PBXGroup;
+			children = (
+				C372DF9A1934CF6F00D8CAA4 /* Distance */,
+				C372DFB91934CF6F00D8CAA4 /* DistanceTests */,
+				C372DF931934CF6F00D8CAA4 /* Frameworks */,
+				C372DF921934CF6F00D8CAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C372DF921934CF6F00D8CAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C372DF911934CF6F00D8CAA4 /* Distance.app */,
+				C372DFB21934CF6F00D8CAA4 /* DistanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C372DF931934CF6F00D8CAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C372DF941934CF6F00D8CAA4 /* Foundation.framework */,
+				C372DF961934CF6F00D8CAA4 /* CoreGraphics.framework */,
+				C372DF981934CF6F00D8CAA4 /* UIKit.framework */,
+				C372DFB31934CF6F00D8CAA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C372DF9A1934CF6F00D8CAA4 /* Distance */ = {
+			isa = PBXGroup;
+			children = (
+				C372DFCC1934DA8F00D8CAA4 /* nearbylocation.png */,
+				C372DFCD1934DA8F00D8CAA4 /* nearbylocation@2x.png */,
+				C372DFA31934CF6F00D8CAA4 /* AppDelegate.h */,
+				C372DFA41934CF6F00D8CAA4 /* AppDelegate.m */,
+				C372DFA61934CF6F00D8CAA4 /* Main.storyboard */,
+				C372DFA91934CF6F00D8CAA4 /* ViewController.h */,
+				C372DFAA1934CF6F00D8CAA4 /* ViewController.m */,
+				C372DFC91934CF8D00D8CAA4 /* DistanceEditorView.h */,
+				C372DFCA1934CF8D00D8CAA4 /* DistanceEditorView.m */,
+				C372DFAC1934CF6F00D8CAA4 /* Images.xcassets */,
+				C372DF9B1934CF6F00D8CAA4 /* Supporting Files */,
+			);
+			path = Distance;
+			sourceTree = "<group>";
+		};
+		C372DF9B1934CF6F00D8CAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C372DF9C1934CF6F00D8CAA4 /* Distance-Info.plist */,
+				C372DF9D1934CF6F00D8CAA4 /* InfoPlist.strings */,
+				C372DFA01934CF6F00D8CAA4 /* main.m */,
+				C372DFA21934CF6F00D8CAA4 /* Distance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C372DFB91934CF6F00D8CAA4 /* DistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C372DFBF1934CF6F00D8CAA4 /* DistanceTests.m */,
+				C372DFBA1934CF6F00D8CAA4 /* Supporting Files */,
+			);
+			path = DistanceTests;
+			sourceTree = "<group>";
+		};
+		C372DFBA1934CF6F00D8CAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C372DFBB1934CF6F00D8CAA4 /* DistanceTests-Info.plist */,
+				C372DFBC1934CF6F00D8CAA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C372DF901934CF6F00D8CAA4 /* Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C372DFC31934CF6F00D8CAA4 /* Build configuration list for PBXNativeTarget "Distance" */;
+			buildPhases = (
+				C372DF8D1934CF6F00D8CAA4 /* Sources */,
+				C372DF8E1934CF6F00D8CAA4 /* Frameworks */,
+				C372DF8F1934CF6F00D8CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Distance;
+			productName = Distance;
+			productReference = C372DF911934CF6F00D8CAA4 /* Distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C372DFB11934CF6F00D8CAA4 /* DistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C372DFC61934CF6F00D8CAA4 /* Build configuration list for PBXNativeTarget "DistanceTests" */;
+			buildPhases = (
+				C372DFAE1934CF6F00D8CAA4 /* Sources */,
+				C372DFAF1934CF6F00D8CAA4 /* Frameworks */,
+				C372DFB01934CF6F00D8CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C372DFB81934CF6F00D8CAA4 /* PBXTargetDependency */,
+			);
+			name = DistanceTests;
+			productName = DistanceTests;
+			productReference = C372DFB21934CF6F00D8CAA4 /* DistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C372DF891934CF6F00D8CAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C372DFB11934CF6F00D8CAA4 = {
+						TestTargetID = C372DF901934CF6F00D8CAA4;
+					};
+				};
+			};
+			buildConfigurationList = C372DF8C1934CF6F00D8CAA4 /* Build configuration list for PBXProject "Distance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C372DF881934CF6F00D8CAA4;
+			productRefGroup = C372DF921934CF6F00D8CAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C372DF901934CF6F00D8CAA4 /* Distance */,
+				C372DFB11934CF6F00D8CAA4 /* DistanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C372DF8F1934CF6F00D8CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DFAD1934CF6F00D8CAA4 /* Images.xcassets in Resources */,
+				C372DF9F1934CF6F00D8CAA4 /* InfoPlist.strings in Resources */,
+				C372DFA81934CF6F00D8CAA4 /* Main.storyboard in Resources */,
+				C372DFCE1934DA8F00D8CAA4 /* nearbylocation.png in Resources */,
+				C372DFCF1934DA8F00D8CAA4 /* nearbylocation@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C372DFB01934CF6F00D8CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DFBE1934CF6F00D8CAA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C372DF8D1934CF6F00D8CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DFCB1934CF8D00D8CAA4 /* DistanceEditorView.m in Sources */,
+				C372DFAB1934CF6F00D8CAA4 /* ViewController.m in Sources */,
+				C372DFA51934CF6F00D8CAA4 /* AppDelegate.m in Sources */,
+				C372DFA11934CF6F00D8CAA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C372DFAE1934CF6F00D8CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C372DFC01934CF6F00D8CAA4 /* DistanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C372DFB81934CF6F00D8CAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C372DF901934CF6F00D8CAA4 /* Distance */;
+			targetProxy = C372DFB71934CF6F00D8CAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C372DF9D1934CF6F00D8CAA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C372DF9E1934CF6F00D8CAA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C372DFA61934CF6F00D8CAA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C372DFA71934CF6F00D8CAA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C372DFBC1934CF6F00D8CAA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C372DFBD1934CF6F00D8CAA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C372DFC11934CF6F00D8CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C372DFC21934CF6F00D8CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C372DFC41934CF6F00D8CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distance/Distance-Prefix.pch";
+				INFOPLIST_FILE = "Distance/Distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C372DFC51934CF6F00D8CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distance/Distance-Prefix.pch";
+				INFOPLIST_FILE = "Distance/Distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C372DFC71934CF6F00D8CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Distance.app/Distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distance/Distance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DistanceTests/DistanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C372DFC81934CF6F00D8CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Distance.app/Distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Distance/Distance-Prefix.pch";
+				INFOPLIST_FILE = "DistanceTests/DistanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C372DF8C1934CF6F00D8CAA4 /* Build configuration list for PBXProject "Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C372DFC11934CF6F00D8CAA4 /* Debug */,
+				C372DFC21934CF6F00D8CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C372DFC31934CF6F00D8CAA4 /* Build configuration list for PBXNativeTarget "Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C372DFC41934CF6F00D8CAA4 /* Debug */,
+				C372DFC51934CF6F00D8CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C372DFC61934CF6F00D8CAA4 /* Build configuration list for PBXNativeTarget "DistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C372DFC71934CF6F00D8CAA4 /* Debug */,
+				C372DFC81934CF6F00D8CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C372DF891934CF6F00D8CAA4 /* Project object */;
+}
